@@ -1,1 +1,24 @@
-<h1>I'M DESTINATION FILE</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bad words</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css' integrity='sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==' crossorigin='anonymous' />
+</head>
+
+<body>
+  <div class="container mt-5">
+
+    <p><strong>Paragraph length:</strong> xx</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, iste dolorem iusto nihil architecto ipsam mollitia facilis corrupti quis, aspernatur distinctio sed quia ullam error repellendus recusandae praesentium? Labore, distinctio!</p>
+
+    <hr>
+
+    <p><strong>Censored Paragraph length: </strong>xx</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et, ipsa, ullam, repellat animi nulla fugiat obcaecati id voluptatem voluptates corrupti aliquid nihil repudiandae eligendi ad non pariatur. Quaerat, dolores.</p>
+  </div>
+</body>
+
+</html>
