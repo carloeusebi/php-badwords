@@ -3,6 +3,9 @@
 $paragraph = $_GET['paragraph'];
 $to_censor_word = $_GET['to-censor-word'];
 
+$paragraph_length = strlen($paragraph);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +21,8 @@ $to_censor_word = $_GET['to-censor-word'];
 <body>
   <div class="container mt-5">
 
-    <p><strong>Paragraph length:</strong> <?= $paragraph ?> </p>
-    <p></p>
+    <p><strong>Paragraph length:</strong> <?= $paragraph_length ?> </p>
+    <p><?= $paragraph ?></p>
 
     <hr>
 
