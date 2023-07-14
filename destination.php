@@ -1,3 +1,10 @@
+<?php
+
+$paragraph = $_GET['paragraph'];
+$to_censor_word = $_GET['to-censor-word'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,13 +18,13 @@
 <body>
   <div class="container mt-5">
 
-    <p><strong>Paragraph length:</strong> xx</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, iste dolorem iusto nihil architecto ipsam mollitia facilis corrupti quis, aspernatur distinctio sed quia ullam error repellendus recusandae praesentium? Labore, distinctio!</p>
+    <p><strong>Paragraph length:</strong> <?= $paragraph ?> </p>
+    <p></p>
 
     <hr>
 
-    <p><strong>Censored Paragraph length: </strong>xx</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et, ipsa, ullam, repellat animi nulla fugiat obcaecati id voluptatem voluptates corrupti aliquid nihil repudiandae eligendi ad non pariatur. Quaerat, dolores.</p>
+    <p><strong>Censored Paragraph length: </strong></p>
+    <p><?= $to_censor_word ?></p>
   </div>
 </body>
 
