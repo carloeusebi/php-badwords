@@ -5,6 +5,9 @@ $to_censor_word = $_GET['to-censor-word'];
 
 $paragraph_length = strlen($paragraph);
 
+$censored_paragraph = str_replace($to_censor_word, '***', $paragraph);
+
+$censored_paragraph_length = strlen($censored_paragraph);
 
 ?>
 
@@ -26,8 +29,8 @@ $paragraph_length = strlen($paragraph);
 
     <hr>
 
-    <p><strong>Censored Paragraph length: </strong></p>
-    <p><?= $to_censor_word ?></p>
+    <p><strong>Censored Paragraph length: </strong><?= $censored_paragraph_length ?></p>
+    <p><?= $censored_paragraph ?></p>
   </div>
 </body>
 
